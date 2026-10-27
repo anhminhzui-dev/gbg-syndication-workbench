@@ -6,6 +6,19 @@ Built for **Gangnam Beauty Guide** (`gangnambeautyguide.com` / `gangnambeauty.gu
 
 ---
 
+## Candidate Verification Package — Vo Ba Hoang Minh
+- **AI engineering CV / resume:** https://anhminhzui-dev.github.io/anhminhzui-dev/Vo_Ba_Hoang_Minh_CV.pdf
+- **Applied AI & VFX / Production Mentor CV:** https://anhminhzui-dev.github.io/anhminhzui-dev/Vo_Ba_Hoang_Minh_VFX_AI_Mentor_CV.pdf
+- **Portfolio:** https://anhminhzui-dev.github.io/anhminhzui-dev/
+- **Frontier Graphics & Autonomous 3D Systems:** https://anhminhzui-dev.github.io/anhminhzui-dev/#graphics
+- **GitHub:** https://github.com/anhminhzui-dev
+- **Role-specific AI evaluation repos:** https://github.com/anhminhzui-dev/failclosed-eval | https://github.com/anhminhzui-dev/mcp-trajectory-judge
+- **Recent AI research — Constructing Language Judgments (technical report):** https://doi.org/10.5281/zenodo.22675789
+- **Gnomon product UI preview (sample data):** https://anhminhzui-dev.github.io/anhminhzui-dev/gnomon/product/
+- **LinkedIn:** https://www.linkedin.com/in/minh-v%C3%B5-b%C3%A1-ho%C3%A0ng-287942366/
+
+---
+
 ## 1. Live Production Audit Receipt (`gangnambeautyguide.com`, 2026-10-27)
 
 | Live Dataset | Rows Audited | Measured Production Finding | Delivered Fix in This Repo |
