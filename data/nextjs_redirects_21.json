@@ -1,0 +1,152 @@
+{
+  "count": 21,
+  "nextjs_redirects": [
+    {
+      "source": "/:locale/doctors/dr-134",
+      "destination": "/:locale/doctors/dr-62",
+      "permanent": true,
+      "koreanName": "권찬",
+      "mergedRomanized": "Chan Kwon"
+    },
+    {
+      "source": "/:locale/doctors/dr-94",
+      "destination": "/:locale/doctors/dr-39",
+      "permanent": true,
+      "koreanName": "이동찬",
+      "mergedRomanized": "Dong-Chan Lee"
+    },
+    {
+      "source": "/:locale/doctors/dr-194",
+      "destination": "/:locale/doctors/dr-88",
+      "permanent": true,
+      "koreanName": "이호준",
+      "mergedRomanized": "Ho-Jun Lee"
+    },
+    {
+      "source": "/:locale/doctors/dr-156",
+      "destination": "/:locale/doctors/dr-44",
+      "permanent": true,
+      "koreanName": "김형택",
+      "mergedRomanized": "Hyeong-Taek Kim"
+    },
+    {
+      "source": "/:locale/doctors/dr-356",
+      "destination": "/:locale/doctors/dr-310",
+      "permanent": true,
+      "koreanName": "심정환",
+      "mergedRomanized": "Jeong-Hwan Sim"
+    },
+    {
+      "source": "/:locale/doctors/dr-278",
+      "destination": "/:locale/doctors/dr-33",
+      "permanent": true,
+      "koreanName": "이지원",
+      "mergedRomanized": "Ji-Won Lee"
+    },
+    {
+      "source": "/:locale/doctors/dr-388",
+      "destination": "/:locale/doctors/dr-381",
+      "permanent": true,
+      "koreanName": "이준우",
+      "mergedRomanized": "Jun-Woo Lee"
+    },
+    {
+      "source": "/:locale/doctors/dr-136",
+      "destination": "/:locale/doctors/dr-60",
+      "permanent": true,
+      "koreanName": "이강우",
+      "mergedRomanized": "Kang-Woo Lee"
+    },
+    {
+      "source": "/:locale/doctors/dr-175",
+      "destination": "/:locale/doctors/dr-42",
+      "permanent": true,
+      "koreanName": "주락균",
+      "mergedRomanized": "Rak-Kyun Joo"
+    },
+    {
+      "source": "/:locale/doctors/dr-357",
+      "destination": "/:locale/doctors/dr-312",
+      "permanent": true,
+      "koreanName": "김렬우",
+      "mergedRomanized": "Ryeol-U Kim"
+    },
+    {
+      "source": "/:locale/doctors/dr-401",
+      "destination": "/:locale/doctors/dr-14",
+      "permanent": true,
+      "koreanName": "김상헌",
+      "mergedRomanized": "Sang-Heon Kim"
+    },
+    {
+      "source": "/:locale/doctors/dr-359",
+      "destination": "/:locale/doctors/dr-311",
+      "permanent": true,
+      "koreanName": "박선희",
+      "mergedRomanized": "Seon-Hui Park"
+    },
+    {
+      "source": "/:locale/doctors/dr-355",
+      "destination": "/:locale/doctors/dr-309",
+      "permanent": true,
+      "koreanName": "서승조",
+      "mergedRomanized": "Seung-Jo Seo"
+    },
+    {
+      "source": "/:locale/doctors/dr-142",
+      "destination": "/:locale/doctors/dr-130",
+      "permanent": true,
+      "koreanName": "신수혜",
+      "mergedRomanized": "Soo-Hye Shin"
+    },
+    {
+      "source": "/:locale/doctors/dr-279",
+      "destination": "/:locale/doctors/dr-34",
+      "permanent": true,
+      "koreanName": "김태규",
+      "mergedRomanized": "Tae-Gyu Kim"
+    },
+    {
+      "source": "/:locale/doctors/dr-353",
+      "destination": "/:locale/doctors/dr-153",
+      "permanent": true,
+      "koreanName": "김태훈",
+      "mergedRomanized": "Tae-Hoon Kim"
+    },
+    {
+      "source": "/:locale/doctors/dr-264",
+      "destination": "/:locale/doctors/dr-153",
+      "permanent": true,
+      "koreanName": "김태훈",
+      "mergedRomanized": "Tae-Hoon Kim"
+    },
+    {
+      "source": "/:locale/doctors/dr-286",
+      "destination": "/:locale/doctors/dr-28",
+      "permanent": true,
+      "koreanName": "최원철",
+      "mergedRomanized": "Won-Cheol Choi"
+    },
+    {
+      "source": "/:locale/doctors/dr-275",
+      "destination": "/:locale/doctors/dr-35",
+      "permanent": true,
+      "koreanName": "이우섭",
+      "mergedRomanized": "Woo-Seop Lee"
+    },
+    {
+      "source": "/:locale/doctors/dr-176",
+      "destination": "/:locale/doctors/dr-41",
+      "permanent": true,
+      "koreanName": "고영일",
+      "mergedRomanized": "Yeong-Il Ko"
+    },
+    {
+      "source": "/:locale/doctors/dr-135",
+      "destination": "/:locale/doctors/dr-61",
+      "permanent": true,
+      "koreanName": "이영택",
+      "mergedRomanized": "Yeong-Taek Lee"
+    }
+  ]
+}

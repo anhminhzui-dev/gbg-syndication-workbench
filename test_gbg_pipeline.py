@@ -219,3 +219,53 @@ def test_evaluator_optimizer_loop_retries_and_fixes_bad_first_draft():
     assert out.evaluator_iterations == 2
     assert out.stage_trace["stage4_evaluator"][0]["passed"] is False
     assert out.stage_trace["stage4_evaluator"][1]["passed"] is True
+
+
+def test_korean_tax_receipt_mod10_checksum_and_approval_code():
+    """Verifies Korean Business Registration Number (사업자등록번호) mod-10 checksum and 8-digit VAN approval code."""
+    from gbg_pipeline import validate_korean_tax_receipt
+    # 211-88-49289 -> valid mod-10 checksum
+    valid_ocr = "디에이성형외과의원 사업자등록번호: 211-88-49289 결제금액 2,200,000원 승인번호: 48291034"
+    res = validate_korean_tax_receipt(valid_ocr)
+    assert res.verified is True
+    assert res.biz_reg_number == "211-88-49289"
+    assert res.approval_code == "48291034"
+
+    # Tampered last digit (211-88-49281) must fail mod-10 checksum
+    bad_ocr = "사업자등록번호: 211-88-49281 승인번호: 48291034"
+    bad_res = validate_korean_tax_receipt(bad_ocr)
+    assert bad_res.verified is False
+    assert bad_res.reason == "INVALID_BIZ_REG_MOD10_CHECKSUM"
+
+
+def test_pixel_array_to_photo_telemetry_catches_exposure_shift():
+    """Computes sRGB gamma-decoded linear luminance directly from pixel arrays and flags studio boost."""
+    from gbg_pipeline import compute_image_pair_telemetry, evaluate_photo_pair, RefusalCode
+    tel = compute_image_pair_telemetry(
+        before_border_pixels=[120, 122, 118, 121],
+        after_border_pixels=[205, 210, 208, 207],
+        before_face_bbox=(400, 500),
+        after_face_bbox=(402, 500),
+    )
+    ev_delta, codes = evaluate_photo_pair(tel)
+    assert ev_delta > 1.5
+    assert RefusalCode.PHOTO_EXPOSURE_MANIPULATION in codes
+
+
+def test_2026_quote_arbitrage_replaces_expired_vat_refund():
+    """Replaces outdated /en/tools/tax-refund (sunset Dec 31, 2025 under Art. 107-3) and flags foreigner surcharge."""
+    from gbg_pipeline import calculate_2026_quote_arbitrage
+    arb = calculate_2026_quote_arbitrage("des", foreigner_quote_krw=4_500_000, quote_excludes_vat=True)
+    assert arb.actual_2026_refund_krw == 0
+    assert arb.legacy_fake_refund_krw > 300_000
+    assert arb.true_2026_out_of_pocket_krw == 4_950_000
+    assert arb.verdict == "FOREIGNER_SURCHARGE_ALERT"
+
+
+def test_nextjs_redirect_map_covers_all_21_duplicate_doctors():
+    """Verifies drop-in Next.js 301 redirect rules generated for all 21 spelling-twin doctor duplicates."""
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).parent / "data" / "nextjs_redirects_21.json").read_text(encoding="utf-8"))
+    assert data["count"] == 21
+    assert any(r["source"] == "/:locale/doctors/dr-136" and r["destination"] == "/:locale/doctors/dr-60" for r in data["nextjs_redirects"])

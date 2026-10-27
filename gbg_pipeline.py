@@ -616,3 +616,123 @@ class SyndicationPipeline:
                 "stage4_evaluator": eval_history,
             },
         )
+
+
+# --- FINAL ENGINEERING ADDITIONS: RECEIPT VERIFICATION, PIXEL HISTOGRAM GATE & 2026 QUOTE ARBITRAGE ---
+
+KOREAN_BIZ_REG_RE = re.compile(r"\b(\d{3})-(\d{2})-(\d{5})\b")
+KOREAN_CARD_APPROVAL_RE = re.compile(r"(?:승인번호|승인)\s*[:：]?\s*(\d{8})\b")
+
+
+@dataclass(frozen=True)
+class TaxReceiptCheck:
+    verified: bool
+    biz_reg_number: Optional[str]
+    approval_code: Optional[str]
+    reason: str
+
+
+def validate_korean_tax_receipt(ocr_text: str) -> TaxReceiptCheck:
+    """
+    Validates Korean hospital card slip / cash receipt (영수증 인증) using:
+    1. 10-digit Korean Business Registration Number (사업자등록번호 XXX-XX-XXXXX) with weighted mod-10 checksum.
+    2. 8-digit VAN/KFTC card approval code (승인번호).
+    """
+    m_biz = KOREAN_BIZ_REG_RE.search(ocr_text)
+    m_app = KOREAN_CARD_APPROVAL_RE.search(ocr_text)
+    if not m_biz:
+        return TaxReceiptCheck(False, None, None, "MISSING_BIZ_REG_NUMBER")
+    digits = [int(c) for c in (m_biz.group(1) + m_biz.group(2) + m_biz.group(3))]
+    weights = [1, 3, 7, 1, 3, 7, 1, 3, 5]
+    total = sum(d * w for d, w in zip(digits[:9], weights))
+    total += (digits[8] * 5) // 10
+    check_digit = (10 - (total % 10)) % 10
+    biz_str = f"{m_biz.group(1)}-{m_biz.group(2)}-{m_biz.group(3)}"
+    if check_digit != digits[9]:
+        return TaxReceiptCheck(False, biz_str, None, "INVALID_BIZ_REG_MOD10_CHECKSUM")
+    if not m_app:
+        return TaxReceiptCheck(False, biz_str, None, "MISSING_8DIGIT_CARD_APPROVAL")
+    return TaxReceiptCheck(True, biz_str, m_app.group(1), "VERIFIED_NTS_RECEIPT")
+
+
+def compute_image_pair_telemetry(
+    before_border_pixels: list[int],
+    after_border_pixels: list[int],
+    before_face_bbox: tuple[int, int],
+    after_face_bbox: tuple[int, int],
+) -> PhotoPairTelemetry:
+    """
+    Computes linear luminance (sRGB gamma 2.2 decoded) over background border pixels
+    and facial bounding-box aspect ratio delta directly from pixel arrays.
+    """
+    def mean_linear_luma(px_list: list[int]) -> float:
+        if not px_list:
+            return 0.5
+        lin = [((max(0, min(255, p)) / 255.0) ** 2.2) for p in px_list]
+        return round(sum(lin) / len(lin), 4)
+
+    b_luma = mean_linear_luma(before_border_pixels)
+    a_luma = mean_linear_luma(after_border_pixels)
+    b_ratio = before_face_bbox[0] / max(1, before_face_bbox[1])
+    a_ratio = after_face_bbox[0] / max(1, after_face_bbox[1])
+    aspect_delta = round(abs(a_ratio - b_ratio) / max(0.01, b_ratio), 4)
+    return PhotoPairTelemetry(before_bg_luma=b_luma, after_bg_luma=a_luma, focal_aspect_delta=aspect_delta)
+
+
+# Canonical domestic Korean median event prices (KRW, VAT-exclusive) for foreign quote arbitrage
+DOMESTIC_BENCHMARK_KRW: dict[str, tuple[int, int]] = {
+    "des": (1_200_000, 2_200_000),
+    "des-revision": (2_500_000, 4_200_000),
+    "rhinoplasty": (3_000_000, 5_500_000),
+    "facial-contouring": (5_500_000, 9_500_000),
+    "face-lift": (6_000_000, 11_000_000),
+    "breast-augmentation": (7_500_000, 12_500_000),
+    "booster": (250_000, 550_000),
+    "botox": (50_000, 180_000),
+}
+
+
+@dataclass(frozen=True)
+class QuoteArbitrageResult:
+    procedure_slug: str
+    foreigner_quote_krw: int
+    legacy_fake_refund_krw: int          # What outdated /en/tools/tax-refund claims (expired Dec 31, 2025)
+    actual_2026_refund_krw: int          # ₩0 under Restriction of Special Taxation Act Art. 107-3 sunset
+    true_2026_out_of_pocket_krw: int
+    local_vat_inclusive_range_krw: tuple[int, int]
+    foreigner_markup_ratio: float
+    verdict: str                         # "FAIR_LOCAL_PARITY" | "MODERATE_TOURIST_SPREAD" | "FOREIGNER_SURCHARGE_ALERT"
+
+
+def calculate_2026_quote_arbitrage(
+    procedure_slug: str,
+    foreigner_quote_krw: int,
+    quote_excludes_vat: bool = True,
+) -> QuoteArbitrageResult:
+    """
+    Replaces gangnambeautyguide.com/en/tools/tax-refund with a 2026-compliant calculator:
+    1. Zeroes out the expired 10% airport VAT refund (sunset Dec 31, 2025).
+    2. Adds mandatory 10% VAT if clinic quoted VAT-exclusive (부가세 별도).
+    3. Compares against domestic GangnamUnni/Babitalk VAT-inclusive median range.
+    """
+    true_cost = int(round(foreigner_quote_krw * 1.10)) if quote_excludes_vat else foreigner_quote_krw
+    legacy_refund = int(round((true_cost / 11.0) * 0.70))  # Old 70%-retained VAT refund formula on live GBG
+    low_dom, high_dom = DOMESTIC_BENCHMARK_KRW.get(procedure_slug, (1_500_000, 3_500_000))
+    dom_inc_low, dom_inc_high = int(round(low_dom * 1.10)), int(round(high_dom * 1.10))
+    ratio = round(true_cost / max(1, dom_inc_high), 2)
+    if ratio <= 1.15:
+        verdict = "FAIR_LOCAL_PARITY"
+    elif ratio <= 1.50:
+        verdict = "MODERATE_TOURIST_SPREAD"
+    else:
+        verdict = "FOREIGNER_SURCHARGE_ALERT"
+    return QuoteArbitrageResult(
+        procedure_slug=procedure_slug,
+        foreigner_quote_krw=foreigner_quote_krw,
+        legacy_fake_refund_krw=legacy_refund,
+        actual_2026_refund_krw=0,
+        true_2026_out_of_pocket_krw=true_cost,
+        local_vat_inclusive_range_krw=(dom_inc_low, dom_inc_high),
+        foreigner_markup_ratio=ratio,
+        verdict=verdict,
+    )
