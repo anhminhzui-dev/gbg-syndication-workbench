@@ -1,0 +1,82 @@
+{"entity_type": "doctor", "slug": "dr-123", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Anh')"}
+{"entity_type": "doctor", "slug": "dr-461", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Barn Jae Sang')"}
+{"entity_type": "doctor", "slug": "dr-134", "canonical_slug": "dr-62", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-62 ('Chan Kwon' == 'Chan Kwon' for '권찬')"}
+{"entity_type": "doctor", "slug": "dr-10", "action": "QUARANTINE_JAMO_MISMATCH", "reason": "Hangul surname '이' (이정환) conflicts with romanized 'Chan-Eol Seo' (row-shift bug)"}
+{"entity_type": "doctor", "slug": "dr-328", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Chang')"}
+{"entity_type": "doctor", "slug": "dr-465", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Chang Hyung')"}
+{"entity_type": "doctor", "slug": "dr-115", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Chi')"}
+{"entity_type": "doctor", "slug": "dr-452", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Chi Young Bang')"}
+{"entity_type": "doctor", "slug": "dr-445", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Chul Hwan Seul')"}
+{"entity_type": "doctor", "slug": "dr-131", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Creamy')"}
+{"entity_type": "doctor", "slug": "dr-113", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Do')"}
+{"entity_type": "doctor", "slug": "dr-94", "canonical_slug": "dr-39", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-39 ('Dong-Chan Lee' == 'Dong-Chan Lee' for '이동찬')"}
+{"entity_type": "doctor", "slug": "dr-118", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Han')"}
+{"entity_type": "doctor", "slug": "dr-460", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Han Kyu Nam')"}
+{"entity_type": "doctor", "slug": "dr-464", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Hark Young')"}
+{"entity_type": "doctor", "slug": "dr-194", "canonical_slug": "dr-88", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-88 ('Ho-Jun Lee' == 'Ho-Jun Lee' for '이호준')"}
+{"entity_type": "doctor", "slug": "dr-126", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Hong')"}
+{"entity_type": "doctor", "slug": "dr-448", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Hwan Kim')"}
+{"entity_type": "doctor", "slug": "dr-466", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Hyeon')"}
+{"entity_type": "doctor", "slug": "dr-156", "canonical_slug": "dr-44", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-44 ('Hyung-Taek Kim' == 'Hyeong-Taek Kim' for '김형택')"}
+{"entity_type": "doctor", "slug": "dr-437", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Jang')"}
+{"entity_type": "doctor", "slug": "dr-436", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Jeong Mi Sun')"}
+{"entity_type": "doctor", "slug": "dr-356", "canonical_slug": "dr-310", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-310 ('Jeong-Hwan Sim(Shim)' == 'Jeong-Hwan Sim' for '심정환')"}
+{"entity_type": "doctor", "slug": "dr-278", "canonical_slug": "dr-33", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-33 ('Ji-Won Lee' == 'Ji-Won Lee' for '이지원')"}
+{"entity_type": "doctor", "slug": "dr-116", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Jin')"}
+{"entity_type": "doctor", "slug": "dr-388", "canonical_slug": "dr-381", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-381 ('Jun-U Lee' == 'Jun-Woo Lee' for '이준우')"}
+{"entity_type": "doctor", "slug": "dr-120", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Jung Hyunwook')"}
+{"entity_type": "doctor", "slug": "dr-330", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kang')"}
+{"entity_type": "doctor", "slug": "dr-444", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kang')"}
+{"entity_type": "doctor", "slug": "dr-136", "canonical_slug": "dr-60", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-60 ('Gang-Woo Lee' == 'Kang-Woo Lee' for '이강우')"}
+{"entity_type": "doctor", "slug": "dr-114", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim')"}
+{"entity_type": "doctor", "slug": "dr-331", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim')"}
+{"entity_type": "doctor", "slug": "dr-457", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim')"}
+{"entity_type": "doctor", "slug": "dr-124", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim Chae Mun')"}
+{"entity_type": "doctor", "slug": "dr-467", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim Hyungsuk')"}
+{"entity_type": "doctor", "slug": "dr-442", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim Jun Hyung')"}
+{"entity_type": "doctor", "slug": "dr-127", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kim Tae Woo')"}
+{"entity_type": "doctor", "slug": "dr-336", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kirk')"}
+{"entity_type": "doctor", "slug": "dr-455", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Koo Hyun Kook')"}
+{"entity_type": "doctor", "slug": "dr-332", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kwon')"}
+{"entity_type": "doctor", "slug": "dr-439", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kwon Byung Yoon')"}
+{"entity_type": "doctor", "slug": "dr-450", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kyung Min Lee')"}
+{"entity_type": "doctor", "slug": "dr-451", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Kyung Min Lee')"}
+{"entity_type": "doctor", "slug": "dr-129", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee')"}
+{"entity_type": "doctor", "slug": "dr-329", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee')"}
+{"entity_type": "doctor", "slug": "dr-458", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee')"}
+{"entity_type": "doctor", "slug": "dr-434", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Dong Chan')"}
+{"entity_type": "doctor", "slug": "dr-456", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Dong Chang')"}
+{"entity_type": "doctor", "slug": "dr-462", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Hyun-Taek')"}
+{"entity_type": "doctor", "slug": "dr-463", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Hyuntaek')"}
+{"entity_type": "doctor", "slug": "dr-440", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Jun Hee')"}
+{"entity_type": "doctor", "slug": "dr-453", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Sang-Woo')"}
+{"entity_type": "doctor", "slug": "dr-449", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Seok Jae')"}
+{"entity_type": "doctor", "slug": "dr-358", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Suk Hyun')"}
+{"entity_type": "doctor", "slug": "dr-122", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Lee Wu Seub')"}
+{"entity_type": "doctor", "slug": "dr-446", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Man Koon Suh')"}
+{"entity_type": "doctor", "slug": "dr-119", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Park')"}
+{"entity_type": "doctor", "slug": "dr-128", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Park')"}
+{"entity_type": "doctor", "slug": "dr-459", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Park')"}
+{"entity_type": "doctor", "slug": "dr-438", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Park Song Yi')"}
+{"entity_type": "doctor", "slug": "dr-175", "canonical_slug": "dr-42", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-42 ('Rak-Kyun Joo' == 'Rak-Kyun Joo' for '주락균')"}
+{"entity_type": "doctor", "slug": "dr-357", "canonical_slug": "dr-312", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-312 ('Ryeol-U Kim' == 'Ryeol-U Kim' for '김렬우')"}
+{"entity_type": "doctor", "slug": "dr-454", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Sang Woo Lee')"}
+{"entity_type": "doctor", "slug": "dr-401", "canonical_slug": "dr-14", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-14 ('Sang-Heon Kim' == 'Sang-Heon Kim' for '김상헌')"}
+{"entity_type": "doctor", "slug": "dr-125", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Seo')"}
+{"entity_type": "doctor", "slug": "dr-359", "canonical_slug": "dr-311", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-311 ('Seon-Hui Park' == 'Seon-Hui Park' for '박선희')"}
+{"entity_type": "doctor", "slug": "dr-355", "canonical_slug": "dr-309", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-309 ('Seung-Jo Seo' == 'Seung-Jo Seo' for '서승조')"}
+{"entity_type": "doctor", "slug": "dr-137", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Shin')"}
+{"entity_type": "doctor", "slug": "dr-121", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Son Won Il Miho PS')"}
+{"entity_type": "doctor", "slug": "dr-117", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Song')"}
+{"entity_type": "doctor", "slug": "dr-142", "canonical_slug": "dr-130", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-130 ('Soo-Hye Shin' == 'Soo-Hye Shin' for '신수혜')"}
+{"entity_type": "doctor", "slug": "dr-441", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Suh Yong Hoon')"}
+{"entity_type": "doctor", "slug": "dr-435", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Sung Seung Jeh')"}
+{"entity_type": "doctor", "slug": "dr-279", "canonical_slug": "dr-34", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-34 ('Tae-Gyu Kim' == 'Tae-Gyu Kim' for '김태규')"}
+{"entity_type": "doctor", "slug": "dr-353", "canonical_slug": "dr-153", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-153 ('Tae-Heon Kim' == 'Tae-Hoon Kim' for '김태훈')"}
+{"entity_type": "doctor", "slug": "dr-264", "canonical_slug": "dr-153", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-153 ('Tae-Heon Kim' == 'Tae-Hoon Kim' for '김태훈')"}
+{"entity_type": "doctor", "slug": "dr-286", "canonical_slug": "dr-28", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-28 ('Won-Cheol Choi' == 'Won-Cheol Choi' for '최원철')"}
+{"entity_type": "doctor", "slug": "dr-275", "canonical_slug": "dr-35", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-35 ('Wu-Seop Lee' == 'Woo-Seop Lee' for '이우섭')"}
+{"entity_type": "doctor", "slug": "dr-443", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Yeon Jun Kim')"}
+{"entity_type": "doctor", "slug": "dr-176", "canonical_slug": "dr-41", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-41 ('Yeong-Il Ko' == 'Yeong-Il Ko' for '고영일')"}
+{"entity_type": "doctor", "slug": "dr-135", "canonical_slug": "dr-61", "action": "MERGED_SPELLING_TWIN", "reason": "Duplicate of dr-61 ('Yeong-Taek Lee' == 'Yeong-Taek Lee' for '이영택')"}
+{"entity_type": "doctor", "slug": "dr-447", "action": "QUARANTINE_BARE_SURNAME", "reason": "Missing Hangul or single-token romanizedName ('Young Tae Seo')"}

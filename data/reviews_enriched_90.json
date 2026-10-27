@@ -1,0 +1,1397 @@
+{
+  "total_live_reviews": 90,
+  "procedures_backfilled": 59,
+  "single_source_share_gangnam_unni": "90/90 (100.0%)",
+  "records": [
+    {
+      "id": "gbg-live-001",
+      "initial": "N",
+      "rating": 5,
+      "clinicName": "Nana PS",
+      "clinicSlug": "nana-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had nasal surgery for rhinitis and a low nose. They reported that the consultation felt reassuring, the procedure was not painful, and recovery was smooth with no complications or aftereffects, allowing normal daily life from the day of surgery. Overall, they were very satisfied and said they would recommend it to others considering surgery.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "c991b335a2ac5112"
+    },
+    {
+      "id": "gbg-live-002",
+      "initial": "V",
+      "rating": 4,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had eyelid surgery to correct a sleepy-looking appearance and said forcing the eyes open had been difficult before treatment. Recovery details and cost were not mentioned, but they reported that the result suited their face, made makeup easier, reduced heaviness in the eyelids, and improved their overall expression. They felt very satisfied and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": false,
+      "inputSha256": "05ced436894d687e"
+    },
+    {
+      "id": "gbg-live-003",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had facial contour surgery to address a long-standing concern about their jawline and face shape. Recovery was difficult for about a week with frequent nosebleeds and trouble talking and eating, but swelling improved after two weeks and the face looked more defined by two months; by three months, scars had healed and mouth opening and eating were normal. They felt very satisfied with the result and would recommend it.",
+      "procedureSlugs": [
+        "facial-contouring"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "d3ba276d1b7c2165"
+    },
+    {
+      "id": "gbg-live-004",
+      "initial": "M",
+      "rating": 5,
+      "clinicName": "Marble PS",
+      "clinicSlug": "marble-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had rhinoplasty to shorten a very long nose, reduce a prominent nasal bridge, and narrow the wide nasal bones with osteotomy. Swelling and bruising improved quickly after the splint was removed, and the final straight, refined line was maintained well; they said the surgery made the face look less aged and strongly recommended it, praising the precise diagnosis, design, and aftercare.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "ede586e9240a354b"
+    },
+    {
+      "id": "gbg-live-005",
+      "initial": "C",
+      "rating": 5,
+      "clinicName": "Chai PS",
+      "clinicSlug": "chai-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had revision double-eyelid surgery because a previous left eyelid crease had loosened. Recovery was mild, with only limited swelling and bruising and no major disruption to daily life; the staff and surgeon were described as calm and reassuring. Overall, they were satisfied with the experience and implied they would recommend it.",
+      "procedureSlugs": [
+        "des",
+        "des-revision"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "70056aee22a48809"
+    },
+    {
+      "id": "gbg-live-006",
+      "initial": "N",
+      "rating": 5,
+      "clinicName": "Nana PS",
+      "clinicSlug": "nana-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had breast augmentation with Motiva implants to address a flat chest. Six months later, they reported a very satisfying, natural-looking result that suited their body shape, with improved fit in clothes and positive reactions from friends and their mother. They described the consultation as kind and attentive and were very happy overall, strongly recommending the experience.",
+      "procedureSlugs": [
+        "breast-augmentation"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "cbc4dcf2ef4e6761"
+    },
+    {
+      "id": "gbg-live-007",
+      "initial": "V",
+      "rating": 4,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had eye surgery to correct a sleepy-looking appearance and the need to strain to keep the eyes open. Recovery details and cost were not mentioned, but the result was described as natural and improving over time, with a clearer eyelid line that made makeup easier and the face look brighter. They were very satisfied and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": false,
+      "inputSha256": "7f6e067944d37153"
+    },
+    {
+      "id": "gbg-live-008",
+      "initial": "A",
+      "rating": 5,
+      "clinicName": "AB PS",
+      "clinicSlug": "ab-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had a third rhinoplasty after two prior nose surgeries left the shape unsatisfactory and caused the tip to droop repeatedly. They said the consultation felt most trustworthy because the surgeon clearly explained why the earlier operations failed and the limits of a third revision; early recovery looked good, with the tip line and nostril angle already pleasing and no sign of the tip dropping again. They remained cautiously hopeful and did not give a firm recommendation yet, saying they would keep watching the result.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "50207773091a1761"
+    },
+    {
+      "id": "gbg-live-009",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had double-eyelid surgery with epicanthoplasty and ptosis correction to address uneven eyes and drooping eyelids that had required tape for makeup. They reported significant swelling on the day of surgery, but cold compresses helped the swelling go down quickly, and the final line matched their goal; friends said it did not look obvious, and makeup time dropped because they no longer needed tape. They were very satisfied and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "3114770fc7672017"
+    },
+    {
+      "id": "gbg-live-010",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "Girin PS",
+      "clinicSlug": "girin-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had revision double-eyelid surgery after a previous natural adhesion method began to partially fade and create asymmetry. Recovery was painful for several days, and the price was higher than expected, but the result made the eyes noticeably larger with no recurrence; they were satisfied and recommended the surgery for similar cases.",
+      "procedureSlugs": [
+        "des",
+        "des-revision"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "fdc17ec12409927e"
+    },
+    {
+      "id": "gbg-live-011",
+      "initial": "G",
+      "rating": 4.5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had another face-slimming treatment three months after the previous one because they wanted more facial slimming. They said the staff explained everything in detail, the service was very careful, and the wait time was short. Their overall sentiment was very positive and they were satisfied, but they did not mention complications, recovery, cost, or whether they would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "77895d80631563bc"
+    },
+    {
+      "id": "gbg-live-012",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had an epicanthoplasty-style eye corner procedure to address severe epicanthal folds that made the eyes look cramped and caused itching and skin irritation. They reported almost no swelling or pain right after surgery, a natural-looking result, and a reasonable price; the only downside was a long consultation wait. They felt very satisfied and would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "603b9c3c71ede3d5"
+    },
+    {
+      "id": "gbg-live-013",
+      "initial": "A",
+      "rating": 5,
+      "clinicName": "AB PS",
+      "clinicSlug": "ab-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had a third rhinoplasty after two prior nose surgeries left them unhappy with the shape and a drooping tip. They said the consultation felt most trustworthy because the surgeon clearly explained why the previous results failed and the limits of a third operation; early results looked good with a pleasing tip line and nasolabial angle, and they hoped it would stay stable.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "2cc211e84e9fbe13"
+    },
+    {
+      "id": "gbg-live-014",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had an endoscopic forehead lift and anterior neck muscle resection, and at about 3 months post-op they felt the result had settled naturally without looking overdone. They reported softer facial impressions and no forehead wrinkles when raising the brows, but the scalp was still very itchy and hair had not yet grown back at the incision site. Overall they were satisfied and would recommend it, though they felt follow-up care was lacking because appointments for a hair-regrowth injection were booked 1–2 months out.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "dc612c2a6c76ad77"
+    },
+    {
+      "id": "gbg-live-015",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had multiple nose procedures, including bridge augmentation, tip work with donated rib cartilage, alar angle correction, saddle nose correction, hump correction, and alar lift. Recovery was easy with almost no swelling or bruising, and they returned to normal life right after cast removal and suture removal; scars were minimal, the result looked natural, and they strongly recommended it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "0d9d81c4b4d5c8bd"
+    },
+    {
+      "id": "gbg-live-016",
+      "initial": "D",
+      "rating": 4.5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had revision double-eyelid incision surgery plus lower eyelid surgery and eye-area correction after previously having buried sutures. Recovery included swelling and bruising right after surgery, but these faded within about two weeks, and the eye shape continued to settle over the first month; the reviewer said the result looked natural and more open, though the revision cost was high and the wait time was long. Overall, they were very satisfied, felt the care was attentive, and would recommend it.",
+      "procedureSlugs": [
+        "des",
+        "des-revision"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "f2c270c152d620b4"
+    },
+    {
+      "id": "gbg-live-017",
+      "initial": "D",
+      "rating": 4.5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had revision double-eyelid incision surgery with lateral and lower canthoplasty and ptosis correction. Recovery included swelling and bruising right after surgery, but these improved within about two weeks, and at one month the eyelid line looked clearer and more natural; the revision cost was high, and the long wait at the large hospital was a downside. They felt reassured by the detailed consultation and were overall very satisfied, saying they would recommend it.",
+      "procedureSlugs": [
+        "des",
+        "des-revision"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "10cb740a4d6683d9"
+    },
+    {
+      "id": "gbg-live-018",
+      "initial": "G",
+      "rating": 4,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had shoulder Botox to reduce prominent shoulders and make off-shoulder clothing fit better. The procedure took under 15 minutes, and after paying extra for a different needle, the pain was tolerable; the receptionist, doctor, and nurse were kind, but the counseling felt curt and the place was hard to find. They were satisfied overall and implied they would recommend it.",
+      "procedureSlugs": [
+        "botox"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "3a0c908d70133a17"
+    },
+    {
+      "id": "gbg-live-019",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had double eyelid surgery with natural adhesion, epicanthoplasty, canthoplasty, and eye correction to make small eyelids larger. Recovery was faster than expected, swelling was mild, and the line settled naturally over time, with no complications reported; they said the result looked subtle and natural and that others noticed the improvement. They were very satisfied overall and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "f1e8d6b7ed3d3451"
+    },
+    {
+      "id": "gbg-live-020",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had eye-area surgery to improve the shape and openness of already double eyelids because they were often told they looked sleepy. By 2 months, eye-opening strength had clearly improved, swelling had mostly gone down in 2 weeks, and the result looked natural by about 1 month; makeup also applied better. They were very satisfied and said it would be highly recommended for people with heavy, sleepy-looking eyes.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "33736cb7ec4d7185"
+    },
+    {
+      "id": "gbg-live-021",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had facial liposuction for a round face and combined it with thread lifting to sharpen the jawline and reduce a double chin. Recovery was quick, with no bruising, no visible scars, no need for suture removal, and a fast return to daily life; they reported no complications and said the result looked natural and well tightened. They were very satisfied and strongly recommended the procedure.",
+      "procedureSlugs": [
+        "face-lift",
+        "facial-contouring"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "6b542b04d5adbf7a"
+    },
+    {
+      "id": "gbg-live-022",
+      "initial": "S",
+      "rating": 5,
+      "clinicName": "Saekim PS",
+      "clinicSlug": "saekim-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had chin pin removal surgery and was 2 months out from the procedure. They reported that the foreign-body sensation and pain were completely gone, swelling had mostly resolved, and speaking, eating, and smiling felt normal; they said recovery was easier and faster than the original contour surgery. They were very satisfied, felt the result looked natural, and would recommend it to others dealing with pin-related discomfort.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "c8cb0c47bdc5451b"
+    },
+    {
+      "id": "gbg-live-023",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had facial contouring, rhinoplasty, forehead lift, facial liposuction, and thread lifting, with additional brow muscle removal and multiple nose corrections. They said recovery was followed closely, there was no overtreatment, and the results looked like a completely different person; they reported no complications and were very satisfied, strongly recommending the surgery.",
+      "procedureSlugs": [
+        "face-lift",
+        "facial-contouring",
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "a3c5cbd73216f5a8"
+    },
+    {
+      "id": "gbg-live-024",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had an endoscopic forehead lift and corrugator muscle removal, and at about 3 months post-op they said the result looked natural, had softened their expression, and no longer formed forehead wrinkles when raising their brows. They reported persistent scalp itching and no hair growth yet at the incision area, and said follow-up care was disappointing because a requested regenerative injection appointment was pushed back 1–2 months. Overall, they were satisfied with the outcome and would likely recommend it, but noted the recovery was still ongoing.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "858c9659b76ee54a"
+    },
+    {
+      "id": "gbg-live-025",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had a double-eyelid revision using an in-out line natural adhesion method after the original buried-stitch result faded over about eight years. They had surgery one week after consultation, recovered without daily-life disruption by two weeks, and were still mildly swollen at one month, but the line looked clean and they were satisfied with the outcome. They praised the staff and surgeon for being kind and thorough and would recommend the procedure.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "3467c79b9276a5a9"
+    },
+    {
+      "id": "gbg-live-026",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "Girin PS",
+      "clinicSlug": "girin-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had revision double-eyelid surgery after a previous non-incisional result began to loosen on one side and look uneven in photos. They said the price was higher than expected and recovery was painful for several days, but the eyes became noticeably larger and the loosening was fixed; overall they were satisfied and strongly recommended the surgery.",
+      "procedureSlugs": [
+        "des",
+        "des-revision"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "fb44d2d9130336bf"
+    },
+    {
+      "id": "gbg-live-027",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had double eyelid surgery to soften a strong-looking eye shape. They had bruising and swelling on the day of surgery, but the swelling gradually resolved after stitch removal and was fully gone by 3 months, leaving a natural-looking result. They were satisfied overall, felt the eyes looked clearer and makeup was easier, and they would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "6f860deb780ccb92"
+    },
+    {
+      "id": "gbg-live-028",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had double-eyelid suture, epicanthoplasty, and eye-shape correction to address uneven eye size and drooping outer corners that made makeup and eyelid tape a daily hassle. They had significant swelling on the day of surgery, but it improved quickly with diligent cooling, and they were very satisfied with the natural-looking result, faster makeup routine, and said friends had not noticed the surgery.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "0ff9fa3371ecc6b2"
+    },
+    {
+      "id": "gbg-live-029",
+      "initial": "N",
+      "rating": 5,
+      "clinicName": "Nana PS",
+      "clinicSlug": "nana-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had nasal surgery to address rhinitis and a low nose. Recovery was easy, with far less pain than expected and no side effects or lasting complications, and they felt well enough to resume normal activity the same day. They were very satisfied with the care and results and said they would recommend it without hesitation.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "acdd84376f459b90"
+    },
+    {
+      "id": "gbg-live-030",
+      "initial": "S",
+      "rating": 5,
+      "clinicName": "Saekim PS",
+      "clinicSlug": "saekim-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had chin pin removal surgery to address discomfort from the hardware. By two months, the foreign-body sensation, pain, swelling, and speech or eating discomfort had fully resolved, and the jawline looked more natural; they said recovery was easier and faster than the original contour surgery. They were very satisfied, praised the staff and surgeon’s expertise, and recommended the procedure for anyone bothered by pin-related irritation.",
+      "procedureSlugs": [
+        "facial-contouring"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "d5ff53276e06c00d"
+    },
+    {
+      "id": "gbg-live-031",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had facial liposuction with thread lifting to sharpen a round face and reduce cheek and double-chin fullness. They reported minimal swelling, no bruising, no visible scar, and a quick return to daily life with only patch coverage; they said the combined approach preserved the jawline well and caused no complications. They were very satisfied and strongly recommended it.",
+      "procedureSlugs": [
+        "face-lift",
+        "facial-contouring"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5f15309d3b5db2bd"
+    },
+    {
+      "id": "gbg-live-032",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had facial contouring, rhinoplasty, a forehead lift, neck muscle reduction, facial liposuction, and thread lifting, including rib cartilage grafting and multiple nose corrections. They said the results looked like a completely different person, with careful follow-up and a natural outcome, and they reported no complications or recovery problems. They were very satisfied and strongly recommended the surgery.",
+      "procedureSlugs": [
+        "face-lift",
+        "facial-contouring",
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5d78df2398221743"
+    },
+    {
+      "id": "gbg-live-033",
+      "initial": "N",
+      "rating": 5,
+      "clinicName": "Nana PS",
+      "clinicSlug": "nana-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had Motiva breast augmentation to address a flat chest that had been a major insecurity. Six months later, they reported a very satisfying recovery and natural-looking size increase that improved how clothes fit, with no complications mentioned; friends and family also reacted positively. They felt the consultation was kind and attentive and strongly recommended the procedure.",
+      "procedureSlugs": [
+        "breast-augmentation"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "45ac8ed39e710e05"
+    },
+    {
+      "id": "gbg-live-034",
+      "initial": "M",
+      "rating": 5,
+      "clinicName": "Marble PS",
+      "clinicSlug": "marble-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had breast augmentation to address very low volume and slight asymmetry that bothered them during Pilates and when wearing bra tops. They said the consultation was the best among several places they visited, the shape looked very good, bleeding was minimal, and recovery was very fast; they were very satisfied overall and recommended getting a consultation.",
+      "procedureSlugs": [
+        "breast-augmentation"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "26833ef306ec3329"
+    },
+    {
+      "id": "gbg-live-035",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had a double-eyelid revision using a natural adhesion method to create an in-out line after an earlier buried-suture result faded over about 8 years. They reported a quick recovery with no problems in daily life by 2 weeks, but significant swelling remained then and only minor residual swelling was left at 1 month; the line looked very natural and beautiful. They were very satisfied overall and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "8f12d7229911d0e8"
+    },
+    {
+      "id": "gbg-live-036",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had a double-incision eyelid surgery with an epicanthoplasty-style correction for severe epicanthal folds that made the eyes look cramped and later became itchy and irritated. Recovery was easy, with almost no swelling or pain right after surgery, and the result looked natural; they also said the price was affordable and the consultation was helpful, though the wait time was a bit long. They were very satisfied overall and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "56385c00c99f2d33"
+    },
+    {
+      "id": "gbg-live-037",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had double eyelid surgery with a natural adhesion buried suture technique to address heavy upper lids and a puffy, hard-to-open eye shape. Recovery was easy with very little swelling, and they returned to school immediately; after about a week the result looked more natural, and they reported good aftercare. They were very satisfied, said the line matched what they wanted, and would recommend it, though they noted the buried suture could loosen over time.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "999af1e65b4b68bb"
+    },
+    {
+      "id": "gbg-live-038",
+      "initial": "H",
+      "rating": 5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had rhinoplasty with bridge augmentation, tip surgery using donated rib cartilage, nasolabial angle correction, bulbous tip correction, hump correction, and alar reduction. Recovery was easy, with almost no swelling or bruising, and they returned to daily life right after splint and suture removal; scarring was minimal. They were very satisfied with the natural-looking result and strongly recommended the surgery.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "61888e409c0d7b46"
+    },
+    {
+      "id": "gbg-live-039",
+      "initial": "G",
+      "rating": 4.5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had another face-slimming treatment three months after the previous one because they wanted further facial slimming. They said the staff explained everything in detail, the care was very thorough, and the wait time was short. They were very satisfied overall and gave a positive recommendation.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "18091249b67f2ab0"
+    },
+    {
+      "id": "gbg-live-040",
+      "initial": "G",
+      "rating": 4,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had shoulder Botox for bulky shoulders that made off-shoulder clothing look bad and wanted treatment before a season of more skin exposure. The visit was very quick, under 15 minutes, and the pain was tolerable after paying extra to switch to a different needle; the staff were kind, but the counseling felt curt. They were satisfied overall and implied they would recommend it.",
+      "procedureSlugs": [
+        "botox"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "2569edef44df211a"
+    },
+    {
+      "id": "gbg-live-041",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had jawline-contouring surgery to address a long-standing facial shape concern. Recovery was difficult for about a week with drooling and trouble speaking or eating, but swelling improved after 2 weeks and the face looked noticeably slimmer by 2 to 3 months; scars healed well and mouth opening returned to normal. They were very satisfied with the result and would recommend it.",
+      "procedureSlugs": [
+        "facial-contouring"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "b392e4b9af6c16fd"
+    },
+    {
+      "id": "gbg-live-042",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had double-eyelid buried suture surgery using a 12-hole natural adhesion method to correct heavy lids with inner double folds. Recovery was easy, with very little swelling and a return to school immediately after surgery; after about a week, the line looked more natural. They praised the careful consultation and aftercare, reported no complications, and were very satisfied, saying they would return for repeat surgery and recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "200af54fb6a93c75"
+    },
+    {
+      "id": "gbg-live-043",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had eye muscle correction for naturally double-lidded eyes that still looked sleepy. Swelling dropped a lot after 2 weeks and looked natural by 1 month; at 2 months, eye-opening strength was clearly improved, the result was subtle, and makeup sat better. They were very satisfied and would likely recommend it for people with heavy, tired-looking eyes.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "84fae6b6abc258be"
+    },
+    {
+      "id": "gbg-live-044",
+      "initial": "M",
+      "rating": 5,
+      "clinicName": "Marble PS",
+      "clinicSlug": "marble-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had breast augmentation to address very low volume and slight asymmetry, choosing a natural-looking result after detailed consultation about chest width, skin thickness, elasticity, asymmetry, implant choice, and surgical method. They said the shape and upper-breast volume looked excellent, bleeding was minimal, and recovery was very fast; they reported no complications and were highly satisfied, recommending the surgeon for people worried about lack of volume.",
+      "procedureSlugs": [
+        "breast-augmentation"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "4ca46da7df22c236"
+    },
+    {
+      "id": "gbg-live-045",
+      "initial": "M",
+      "rating": 5,
+      "clinicName": "Marble PS",
+      "clinicSlug": "marble-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had rhinoplasty to shorten a long nose, correct a severe hump, and narrow the nasal bones with osteotomy. They said swelling kept going down after the splint came off, bruising and swelling improved quickly with postoperative laser care, and the final straight bridge-to-tip line looked refined and stayed in place; they felt the consultation and aftercare were excellent and strongly recommended it.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "bddd5446a56e8bf6"
+    },
+    {
+      "id": "gbg-live-046",
+      "initial": "P",
+      "rating": 5,
+      "clinicName": "Pop PS",
+      "clinicSlug": "pop-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The reviewer had double-eyelid surgery with natural adhesion using an in-out line, plus incisional and corner eye procedures and eye correction. Recovery was faster than expected, swelling was mild, and the line settled naturally over time, with no forced upselling at the consultation. They were very satisfied with the natural-looking result and said they would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "e99e65f4d36ada8e"
+    },
+    {
+      "id": "gbg-live-047",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had double-eyelid surgery to create a more natural-looking crease after being told their eyes looked slightly harsh. They had bruising and swelling right after surgery, but these improved after stitch removal and were fully settled by three months; they reported no major complications, felt makeup became easier, and were very satisfied with the result, recommending it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "2623be139dea51bb"
+    },
+    {
+      "id": "gbg-live-048",
+      "initial": "C",
+      "rating": 5,
+      "clinicName": "Chai PS",
+      "clinicSlug": "chai-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-13",
+      "summary": "The patient had revision double-eyelid surgery because the left eye had loosened after an older procedure. Recovery went smoothly, with little swelling or bruising and no major disruption to daily life. They described the consultation as calm and reassuring, felt satisfied with the result, and gave an overall positive impression without mentioning any complications or recommending against it.",
+      "procedureSlugs": [
+        "des",
+        "des-revision"
+      ],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "73c4c3368c223719"
+    },
+    {
+      "id": "gbg-live-049",
+      "initial": "C",
+      "rating": 5,
+      "clinicName": "Chai PS",
+      "clinicSlug": "chai-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a posterior lower blepharoplasty to address small, harsh-looking eyes and worsening under-eye sagging. One month later, they reported a very clean, natural-looking result with just the right amount of brightness, and said the staff were kind and did not push extra procedures. They expressed strong satisfaction and would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "988fb5ad319085e7"
+    },
+    {
+      "id": "gbg-live-050",
+      "initial": "C",
+      "rating": 5,
+      "clinicName": "Chai PS",
+      "clinicSlug": "chai-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a back-and-bottom eye corner revision to make the eyes look larger and the face less severe. At one month, they said the result matched exactly what they wanted: noticeable but not overly dramatic, with no complications mentioned. They praised the consultation as friendly and pressure-free, felt very satisfied, and would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": true,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "01d7597ab1de7daa"
+    },
+    {
+      "id": "gbg-live-051",
+      "initial": "G",
+      "rating": 4.5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a facial slimming acupuncture treatment and returned because the previous session had gone well. They reported almost no waiting time, but this time the needles were not made thinner, so the procedure caused some pain. Overall, they were satisfied enough to repeat it and gave a positive impression, though they did not explicitly state a recommendation.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "6f7487651f4d3d5f"
+    },
+    {
+      "id": "gbg-live-052",
+      "initial": "M",
+      "rating": 5,
+      "clinicName": "Marble PS",
+      "clinicSlug": "marble-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had alar reduction surgery for a prominent bulbous nose and said the consultation was far more detailed than others, with careful measurements and implant examples that built trust. Recovery was easy, with less swelling, bruising, and pain than expected, and the result looked very natural; they felt people noticed a change without it looking surgical and were very satisfied, recommending it implicitly.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "8f16fb1e2c164258"
+    },
+    {
+      "id": "gbg-live-053",
+      "initial": "M",
+      "rating": 5,
+      "clinicName": "Marble PS",
+      "clinicSlug": "marble-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had nostril reduction surgery to address a wide nose that had bothered them since middle school. Recovery was easier than expected, with limited swelling, bruising, and pain, and the result looked very natural, though they felt it may have been almost too subtle. They were very satisfied overall and described the surgery as excellent, effectively recommending it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "470242d25a090b1d"
+    },
+    {
+      "id": "gbg-live-054",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had treatment for fine facial spots and redness. The spots reacted and turned dark like moles for several days, but the visit was smooth and the staff were very kind when directions were unclear. They felt positive overall and wanted to keep returning regularly.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "e1c6b73c83877c92"
+    },
+    {
+      "id": "gbg-live-055",
+      "initial": "H",
+      "rating": 4.5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had an endoscopic forehead lift and was two months out from surgery. They said the result looked natural and they were satisfied overall, with forehead sensation and movement partly returning by that point, but they had some hair loss along the incision line and noted long waits for follow-up checks. They felt the procedure was worthwhile and would recommend it, though they warned that people expecting dramatic change might be disappointed.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "af8f74d2ef14339d"
+    },
+    {
+      "id": "gbg-live-056",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The patient had an eyelid procedure to correct hooded, drooping eyes that made them look tired. Recovery did not interfere with daily life, and the consultation and treatment process went smoothly. They were satisfied with the result and had a positive overall impression, implying they would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "9dfeca17a4e4a3a5"
+    },
+    {
+      "id": "gbg-live-057",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had an eye-opening procedure to address small-looking eyes. By three weeks, the initial swelling had mostly gone down and the result looked very natural, with stronger eyelid opening and far less need to strain the forehead; daily life was unaffected. They felt the staff and doctor were kind, were satisfied overall, and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "95529b7378b98454"
+    },
+    {
+      "id": "gbg-live-058",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had an eye procedure to address monolids and drooping, which had made them look tired. They said the consultation and treatment process were convenient, and recovery did not interfere with daily life. They were satisfied with the result and gave a positive recommendation.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "e421359b32a5e068"
+    },
+    {
+      "id": "gbg-live-059",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The patient had an eye-opening procedure for small eyes. By 3 weeks, the initial swelling had mostly gone, the result looked much more natural, and daily life was not uncomfortable, with stronger eyelid opening and less need to use the forehead. They reported very friendly staff and doctor interactions and felt positively overall, though the result had not fully settled yet; they would likely recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "aea231d139594756"
+    },
+    {
+      "id": "gbg-live-060",
+      "initial": "G",
+      "rating": 4.5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a facial slimming acupuncture treatment, repeating it because they wanted a smaller face and had a good prior experience. They reported almost no waiting time and said the treatment went well overall, but this time the needles were not made thinner, so they felt some pain. Their sentiment was positive, and they appeared willing to recommend it based on the previous and current experience.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "2057655fbacd43c6"
+    },
+    {
+      "id": "gbg-live-061",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The patient, in her 50s, had breast lifting surgery because she became concerned about sagging and wanted to improve her appearance and self-esteem. She said the staff were kind and the pre- and post-procedure care was careful; recovery felt inconvenient at first but improved day by day, and after one month she felt very happy with the result. She reported no complications and strongly recommended the procedure to others.",
+      "procedureSlugs": [
+        "face-lift"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "6e32a513f1259f4d"
+    },
+    {
+      "id": "gbg-live-062",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had treatment for fine facial spots and redness. The spots reacted and turned black like moles for several days, but the visit was smooth and the staff were very kind when directions were needed. They felt positive overall and wanted to keep returning regularly.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5f3b135c07687fe4"
+    },
+    {
+      "id": "gbg-live-063",
+      "initial": "H",
+      "rating": 4.5,
+      "clinicName": "Hit PS",
+      "clinicSlug": "hit-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had an endoscopic forehead lift and was two months out, reporting that the result looked natural and that forehead sensation had mostly returned by then. They had some hair loss along the incision line and noted long waiting times for follow-up checks, but overall they were satisfied and would recommend it, while warning that people expecting dramatic change might be disappointed.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "120291379b610da8"
+    },
+    {
+      "id": "gbg-live-064",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had double-eyelid surgery for heavy, single eyelids and also mentioned a prior inner corner eye incision. Recovery was smooth, with only mild swelling and bruising, and the visible surgical marks disappeared as healing finished; the final line became thinner and more natural than before. They were very satisfied with the result and would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "ed76d2c409ae362c"
+    },
+    {
+      "id": "gbg-live-065",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had double eyelid surgery and an epicanthoplasty to address a closed inner eye shape and a monolid. Recovery was smooth, with little swelling or bruising, and the incision marks later faded as the line settled into a thinner, natural look. They were very satisfied with the result and implied they would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5898790cb6ecee45"
+    },
+    {
+      "id": "gbg-live-066",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer, in her fifties, had breast lift surgery for sagging breasts after worrying about age-related drooping. Recovery was initially uncomfortable but improved day by day, and she reported good pre- and post-op care, friendly staff, and strong satisfaction after one month; she felt happier and more confident and clearly recommended the procedure.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5194001ee868e4b0"
+    },
+    {
+      "id": "gbg-live-067",
+      "initial": "B",
+      "rating": 5,
+      "clinicName": "Braun PS",
+      "clinicSlug": "braun-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The patient had nasal surgery to address a wide nose. Eight weeks after the procedure, they reported a very natural result with no disruption to daily life, and they were satisfied with the outcome. They felt the process was well organized and appreciated the detailed explanation of options; they would recommend it.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "669fee46385ebfe4"
+    },
+    {
+      "id": "gbg-live-068",
+      "initial": "B",
+      "rating": 5,
+      "clinicName": "Braun PS",
+      "clinicSlug": "braun-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had eyelid surgery to address sagging lids and small eyes that had become a personal concern with age. They reported little pain during the procedure, a quick recovery, and being back to daily life within six weeks, with kind counseling and a reasonable price. They were very satisfied and recommended getting a consultation if someone had similar concerns.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "dd569c26b45e2f8f"
+    },
+    {
+      "id": "gbg-live-069",
+      "initial": "B",
+      "rating": 5,
+      "clinicName": "Braun PS",
+      "clinicSlug": "braun-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had nose surgery to address a wide nose. They said recovery was smooth by 8 weeks, with a very natural result and no problems in daily life, and they were satisfied with the outcome. They felt the consultation was thorough and collaborative, and they would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5a663b75a4f2fa08"
+    },
+    {
+      "id": "gbg-live-070",
+      "initial": "B",
+      "rating": 5,
+      "clinicName": "Braun PS",
+      "clinicSlug": "braun-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had eyelid surgery to address drooping eyelids and small eyes, and by 6 weeks they reported little pain during the procedure and a fast recovery that allowed a quick return to daily life. They described the consultation as kind and the price as reasonable, felt satisfied with the result, and recommended starting with a consultation if considering the procedure.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "666a91432f23b203"
+    },
+    {
+      "id": "gbg-live-071",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "Girin PS",
+      "clinicSlug": "girin-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had eye-lowering surgery to make the eyes look less upturned, and they chose it after a friend’s strong recommendation. Recovery was mostly smooth: there was no pain, but they had morning discharge, one-sided conjunctival swelling, redness, stiffness, and a pulling sensation when smiling; by two weeks they could resume daily life, and at about 1.5 months the swelling was still not fully gone. They felt the result was promising and were generally satisfied, though they were still waiting for a follow-up and noted the parking support was limited.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "141d5be4a6d9ec5f"
+    },
+    {
+      "id": "gbg-live-072",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "Girin PS",
+      "clinicSlug": "girin-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had eye surgery to lower and reshape the outer corners of the eyes for a less upturned, less “sad” look. Recovery was mostly manageable: there was no real pain, but one-sided conjunctival swelling made opening the eye uncomfortable, and by two weeks they could resume daily life; at about six weeks, redness, firmness, and some pulling when smiling remained, with one eye still looking somewhat swollen or still elevated. They were generally satisfied and said the result seemed good, but they were disappointed not to have met the surgeon afterward and planned a follow-up.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "3e528c70939f8ba3"
+    },
+    {
+      "id": "gbg-live-073",
+      "initial": "G",
+      "rating": 4,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a treatment for bite misalignment, teeth grinding, jaw fatigue, and facial asymmetry, but they were only one week post-procedure and could not judge the effect yet. They said the procedure finished within 30 minutes, which was convenient, but the experience felt overly mechanical and left them somewhat uneasy. Overall, they were still undecided and did not recommend it yet.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "e4423f292c47a261"
+    },
+    {
+      "id": "gbg-live-074",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a treatment to achieve a smaller face and relieve shoulder stiffness. There was no downtime, and the procedure was done immediately without waiting, but they felt slight discomfort when eating afterward. Overall, the experience seemed positive and convenient, though they did not explicitly state whether they would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "4b668a2f7f82e774"
+    },
+    {
+      "id": "gbg-live-075",
+      "initial": "G",
+      "rating": 4,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer sought treatment for a bad bite, years of teeth grinding, jaw fatigue, and facial asymmetry that showed in photos. They reported that the procedure finished in under 30 minutes, but the experience felt overly mechanical and left them uneasy; at one week post-procedure, they could not judge the results and planned to update after three weeks.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "696a99798e2cd84a"
+    },
+    {
+      "id": "gbg-live-076",
+      "initial": "G",
+      "rating": 4,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a treatment for sun spots and dullness. They reported almost no pain, a very short procedure time of about five minutes, and minimal waiting or consultation time, but noted that no moisturizing products were provided afterward, so they had to be careful about aftercare. Overall, they felt it was efficient and fast, and they seemed positive about it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "f921dbc3354252d8"
+    },
+    {
+      "id": "gbg-live-077",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The patient had a procedure to achieve a smaller face and relieve shoulder stiffness. There was no downtime, and the treatment was done immediately without waiting, but they felt slight discomfort when eating afterward. Overall, the experience seemed positive, though they only described mild post-procedure discomfort and did not state whether they would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "5e0c5c6dc20e875c"
+    },
+    {
+      "id": "gbg-live-078",
+      "initial": "G",
+      "rating": 4,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a treatment for sun spots and dullness. They reported almost no pain, a very short procedure of about five minutes, and very little waiting or consultation time, which made the visit efficient; however, they noted that no moisturizer or aftercare products were provided afterward. Overall, they seemed satisfied with the speed and ease of the treatment and would likely view it positively.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "966dd3712bd13f1f"
+    },
+    {
+      "id": "gbg-live-079",
+      "initial": "D",
+      "rating": 3.5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had double eyelid buried sutures, partial fat removal, eye correction, and epicanthoplasty. They reported mild swelling and bruising right after surgery, with improvement over several days, and said the result looked natural and made the eyes appear clearer; however, the wait time was long despite expecting a walk-in visit. They were very satisfied with the careful consultation, surgery, and aftercare, and they would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "6701dd8fe92e2a0b"
+    },
+    {
+      "id": "gbg-live-080",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had eyelid surgery for weak eye-opening strength and reported a clean facility and thorough consultation. At 3 months post-op, the result had become more natural over time and the eyelid line had settled well, with no complications mentioned. They were satisfied overall and gave a positive recommendation.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "362af3b52c6a8bae"
+    },
+    {
+      "id": "gbg-live-081",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had an eye procedure to address severe weakness that made it hard to open the eyes. Three months later, they said the result had become more natural over time and the line had settled neatly; they also praised the clean facility and very careful consultation. They were satisfied overall and would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "9c9d0bc028c4b633"
+    },
+    {
+      "id": "gbg-live-082",
+      "initial": "D",
+      "rating": 5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had rhinoplasty for a bulbous, low nose that had bothered them since childhood. They said the consultation was organized and hygienic, and recovery was fast enough to return to work after one week with swelling and bruising fading quickly; by one month the result looked natural and matched what they wanted. They reported no complications, felt very satisfied, and would recommend it.",
+      "procedureSlugs": [
+        "rhinoplasty"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "601b789c48461ff0"
+    },
+    {
+      "id": "gbg-live-083",
+      "initial": "D",
+      "rating": 5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had nose surgery to correct a bulbous, low nose that had bothered them since childhood. They worried about cost, time, and pain, but recovery went well: swelling and bruising faded quickly, they returned to work after one week without coworkers noticing, and by one month they felt the result looked natural and matched their ideal. They were very satisfied and would recommend it.",
+      "procedureSlugs": [],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "d8048f5ecbb99d76"
+    },
+    {
+      "id": "gbg-live-084",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had breast augmentation with 4 cm implants after very small breasts and post-breastfeeding sagging. By 120 days, the breasts had become soft and natural with no foreign-body feeling, recovery had been fast, and exercise, sleep, and daily life were unaffected; the only lingering issue was mild cyclical pain that had dropped to about one-tenth of the early level. They were very satisfied and recommended the surgery.",
+      "procedureSlugs": [
+        "breast-augmentation"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "87fd3c34204d7d08"
+    },
+    {
+      "id": "gbg-live-085",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The patient had a treatment aimed at reducing trapezius muscle bulk. They reported a smooth visit with multiple brief consultations and polite staff, then experienced muscle-soreness-like pain for about five days and lingering pain when lifting heavy objects more than a week later, which they felt reflected reduced muscle tightness. Their overall sentiment was positive, and they implied the treatment was worthwhile.",
+      "procedureSlugs": [
+        "face-lift"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "864c11f6afcdd8e3"
+    },
+    {
+      "id": "gbg-live-086",
+      "initial": "G",
+      "rating": 5,
+      "clinicName": "G clinic",
+      "clinicSlug": "g-clinic",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had a treatment aimed at reducing trapezius muscle bulk. They said the process from reception to treatment was smooth and staff were polite, with brief but repeated consultations; afterward, they had muscle-ache-like pain for about five days and still felt pain when lifting heavy objects after more than a week, but believed the muscle tightness had lessened. They seemed generally satisfied and would likely view it positively.",
+      "procedureSlugs": [
+        "face-lift"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "4a4e42e5bb8c8f44"
+    },
+    {
+      "id": "gbg-live-087",
+      "initial": "D",
+      "rating": 5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had double eyelid surgery to create a more open eye shape because their eyes looked small and cramped. They had a lot of eyelid fat but still achieved the desired line, and after the anesthesia wore off they had no pain; they were very satisfied and said acquaintances even asked where it was done, so they would recommend it.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "dcbfe828a2da3812"
+    },
+    {
+      "id": "gbg-live-088",
+      "initial": "D",
+      "rating": 3.5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had double eyelid surgery with partial fat removal, eye correction, and epicanthoplasty. Recovery involved swelling and bruising right after surgery, but these improved over a few days, and the eyes looked clearer with a natural crease; they felt the procedure was careful and the aftercare was good. They were very satisfied overall and would recommend it, though the long wait time was a clear negative.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "b09632fd0963f829"
+    },
+    {
+      "id": "gbg-live-089",
+      "initial": "V",
+      "rating": 5,
+      "clinicName": "View PS",
+      "clinicSlug": "view-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had breast augmentation with implants, choosing a 4 cm size after concerns about a very small, sagging chest following breastfeeding. By 120 days, the breasts had become soft and natural-looking, with no foreign-body feeling, no pain when sleeping on her side, and no interference with exercise; she said the recovery was fast and that she could wear regular bras after 2 months, though she still felt she was a B cup and bought Full C bras.",
+      "procedureSlugs": [
+        "breast-augmentation"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "3373ea05148f15d5"
+    },
+    {
+      "id": "gbg-live-090",
+      "initial": "D",
+      "rating": 5,
+      "clinicName": "DA PS",
+      "clinicSlug": "da-ps",
+      "source": "GangnamUnni",
+      "date": "2026-04-12",
+      "summary": "The reviewer had double eyelid surgery to address small, narrow-looking eyes with a lot of eyelid fat. They reported that the desired eyelid line was achieved, and even after the anesthesia wore off there was no pain; they also said parking was easy and staff were kind. They were very satisfied and would recommend it, noting that a friend asked where it was done after seeing the result.",
+      "procedureSlugs": [
+        "des"
+      ],
+      "isRevision": false,
+      "priceDisclosedInSummary": true,
+      "inputSha256": "e3c6041e17216179"
+    }
+  ]
+}
